@@ -3,7 +3,7 @@
 ## About
 A React project that uses data fetching with Axios, promises, and SWR (State While Revalidate) to fetch data using React hooks. 
 
-Pokemon data is accessed through [PokeApi](https://pokeapi.co/) and displayed on a webpage in an organized manner. Additional functionality includes a music player which allows user to press a button to play music while browsing through pokemon.
+Pokemon data is accessed through [PokeApi](https://pokeapi.co/) and displayed on a webpage in an organized and creative manner. Additional functionality includes a music player which allows user to press a button to play music while browsing through pokemon.
 
 
 ## Technologies
