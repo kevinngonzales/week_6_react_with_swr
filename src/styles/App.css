@@ -1,0 +1,149 @@
+/* Flex Elements Settings */
+body,
+.card,
+.card-id,
+.card-details,
+.type-list #root {
+  display: flex;
+margin: auto;
+}
+
+body {
+  background-color: #74baf0;
+}
+.pokemon-logo {
+  display: flex;
+  margin: auto;
+  width: 30vw;
+  height: 20vw;
+}
+
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #de4c4c;
+  margin: auto;
+  width: 110px;
+  height: 60px;
+  border-radius: 80%;
+  color: white;
+  box-shadow: 2px 3px rgba(72, 15, 5, 0.65);
+  font-family: "SixtyFour";
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.audio-player {
+  font-family: "PT Serif", sans-serif;
+  flex-direction: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-notif {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.volume-warning {
+  margin: 2%;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: "PT Serif", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Pokemon Row Settings */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.card {
+  flex-direction: column;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 0.45rem;
+  width: 20vw;
+  height: 35vh;
+  background-color: antiquewhite;
+  box-shadow: 7px 10px rgba(178, 37, 12, 0.65);
+  font-size: 10px;
+}
+
+.card-id {
+  font-family: "PT Serif", sans-serif;
+  flex-direction: column;
+  margin: 0%;
+  padding: 2.5%;
+  border-radius: 0.45rem;
+  background-color: rgb(222, 76, 76);
+  box-shadow: 2px 3px rgba(255, 99, 71, 0.4);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.card-name {
+  font-family: "SixtyFour";
+  font-size: 20px;
+}
+
+.card-sprite {
+  width: 10rem;
+  height: 11rem;
+}
+
+.card-details {
+  font-family: "Kanit";
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.type-list {
+  flex-direction: row;
+  list-style-type: circle;
+}
+
+li {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.type-list > li::marker {
+  color: rgb(222, 76, 76);
+}
+
+/* Justify/Align Center Settings */
+body,
+.card,
+.card-id,
+.type-list #root {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex-direction Column Settings */
+#root {
+  flex-direction: column;
+}
